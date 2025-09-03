@@ -7,17 +7,17 @@ TO RUN THE BACKEND, REDIRECT TO THE BACKEND DIRECTORY
 THEN RUN
 # node server.js
 
+<!-- STEP ONE -->
 first create the React Native application
 # npx react-native init DMSApp
-
-<!-- Then install NativeBase library To use Bootstrap-like styling in a React Native app, because we can't use regular Bootstrap (which is for web). Instead, use a library that brings Bootstrap-style components to React Native.
-# npm install native-base react-native-svg react-native-safe-area-context -->
 
 Now, implementing the navigation using @react-navigation/native.
 # npm install @react-navigation/native
 # npm install @react-navigation/native-stack
 # npm install react-native-screens react-native-safe-area-context
 
+
+<!-- STEP TWO -->
 Now, intall the required libraries for OTP based login andd for token storage
 # npm install @react-native-async-storage/async-storage
 
@@ -29,3 +29,10 @@ For the backendd install some libraries
 The OTP will generate andd be shown only in terminal
 where the backend runs.
 
+
+<!-- STEP THREE -->
+Now, install the equired libraries to develop a File Upload Component
+# npm install react-native-paper react-native-document-picker react-native-image-picker @react-native-community/datetimepicker
+
+Implement the File and picture upload functionalities, Date Picker and Tag input fields, with Remarks input field
+on the Dashboard.
